@@ -5,7 +5,6 @@ const PLUGIN_PATH := "plugins/git_bash_here/shortcut"
 
 var shortcut: Shortcut
 var shortcut_res: Shortcut = preload("res://addons/git_bash_here/git_bash_here_shortcut.tres")
-
 var timer: SceneTreeTimer
 
 func _enter_tree():
