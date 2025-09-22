@@ -29,11 +29,13 @@ func set_shortcut(project_setting_path: String, resource: Shortcut) -> Shortcut:
 	return resource
 
 func git_bash_here() -> void:
+	#New call delay
 	if timer and timer.time_left:
 		return
 	timer = get_tree().create_timer(2.5)
 	
-	var path: String = ProjectSettings.globalize_path("res://")
+	
+	var path: String = ProjectSettings.globalize_path("res://") ## Project global path
 	var command: String = 'cd %s  && start "" "C:\\Program Files\\Git\\bin\\sh.exe" && exit' % path
 
 	OS.create_process("cmd.exe", ["/c", command], true)
