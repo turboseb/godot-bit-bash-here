@@ -1,6 +1,6 @@
 # <p align="center">Godot Git Bash here
 <p align="center">
-<img src="https://github.com/turboseb/godot-bit-bash-here/blob/master/addons/git_bash_here/git_bash_here.svg" width="200">
+<img src="https://github.com/turboseb/godot-bit-bash-here/blob/master/icon.svg" width="200">
 <p align="center">
 Allows to easily open Git Bash in the current project with a shortcut.
 </p>
